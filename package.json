@@ -6,12 +6,17 @@
   "main": "index.js",
   "scripts": {
     "start": "sergey",
-    "dev": "sergey --watch"
+    "dev": "sergey --watch",
+    "twdev": "npx tailwindcss -i ./assets/css/style.css -o ./assets/css/twlive.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sergey": "0.0.13"
+    "sergey": "^0.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
+    "tailwindcss": "^3.0.15"
   }
 }
